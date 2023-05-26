@@ -1,0 +1,56 @@
+signup.php
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="setting.css">
+  <link rel="stylesheet" href="style.css">
+  <title>FlashNews! Регистрация</title>
+</head>
+
+<body class="page light-theme">
+  
+  <header class="page-header">
+    <div class="container">
+      <a class="header-logo">
+        <img src="#" width="67" height="29" alt="Логотип портала">
+      </a>
+    </div>
+  </header>
+
+  <main class="index-main">
+    <div class="container">
+      <h1 class="inner-heading">Регистрация</h1>
+      <pre>
+      <?php include 'validate.php'; ?>
+      </pre>>
+      <form class="reg-form" action="signup.php" method="post">
+       
+        <input class="fullname" type="text" value="Опознанный Енот" id="reg-name" name="reg-name" placeholder="Имя" required>
+        <input class="email" type="email" value="Опознанный Енот" id="reg-name" name="reg-name" placeholder="Email" required>
+        <input class="password" type="password" value="КексРулит777" id="reg-pass" name="reg-pass" placeholder="Пароль" required >
+        <input class="confirm_password" type="password" value="КексРулит777" id="reg-pass" name="reg-pass" placeholder="Подтверждение пароля" required >
+        <div class="security">
+          <div class="security-bar"></div>
+        </div>
+        <input class="show-password visually-hidden" type="checkbox" id="show-pass">
+        <label class="checkbox-label" for="show-pass">Показать пароль</label>
+        <button class="button" type="submit">Зарегистрироваться</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <p>© FlashNews!</p>
+      <a class="footer-logo">
+        <img src="img/white-logo.svg" alt="Логотип портала FlashNews!">
+      </a>
+    </div>
+  </footer>
+  <script src="themes.js"></script>
+  <script src="password.js"></script>
+</body>
+
+</html>
+     

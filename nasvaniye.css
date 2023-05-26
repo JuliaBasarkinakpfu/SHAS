@@ -1,0 +1,121 @@
+body {
+  font-family: 'Caveat', cursive;
+    width: auto;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #ffffff;
+  }
+  
+  .main-header {
+    font-family: 'Caveat', cursive;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    
+    
+  }
+  .title {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    padding-left: 120px; }
+  
+  
+  .site-navigation {
+    width: auto; 
+    display: flex;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    column-gap:30px;
+    row-gap: 30px;
+    font-size: 21px;
+    
+  }
+  
+  .menu-list {
+    font-family: 'Caveat', cursive;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:20px;
+  row-gap:30px;
+  padding:30px;
+  padding-bottom:10px;
+  padding-top:10px;
+  margin: 0;
+  background-color:white	;
+  width: auto; 
+  color: black;
+  background-color: #ffffff;
+  
+  }
+
+  h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 34px;
+    margin-left: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  h3 a {
+    font-family: 'Caveat', cursive;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 20px;
+     font-weight: normal;
+     border-radius: 20%;
+     
+     
+    }
+    
+  .site-navigation-item a {
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid;;
+    border-radius: 20px;
+    font-family: 'Caveat', cursive;
+    }
+    
+  .main-footer {
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    
+  }
+  
+  .footer-title {
+    font-size: 26px; }
+    
+  
+  .logo {
+    border-radius: 50%; 
+     margin: 10px;
+     margin-left: 30px; 
+     background-color: #ffffff}
+     
+     img {
+border-radius: 10%
+     }
+
+     h3 .rules-item {
+      font-family: 'Caveat', cursive;
+      font-weight: 200;
+      font-size: 22px;
+     }
+     ul {
+      list-style-type:  none;
+    }
